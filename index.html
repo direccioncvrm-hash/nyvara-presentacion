@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYVARA — Memoria externa para tu pensamiento</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #080b10;
+      color: #f5f7fa;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: auto;
+    }
+
+    header {
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      background:
+        radial-gradient(circle at 50% 20%, #202936 0%, #080b10 55%);
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 13px;
+      color: #9aa6b5;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(58px, 10vw, 120px);
+      letter-spacing: 8px;
+      line-height: 1;
+      margin-bottom: 22px;
+    }
+
+    .tagline {
+      font-size: clamp(22px, 4vw, 38px);
+      font-weight: 300;
+      margin-bottom: 24px;
+    }
+
+    .hero-text {
+      max-width: 760px;
+      margin: auto;
+      color: #b7c0cc;
+      font-size: 18px;
+    }
+
+    section {
+      padding: 90px 0;
+      border-top: 1px solid #1d2530;
+    }
+
+    h2 {
+      font-size: clamp(32px, 5vw, 52px);
+      margin-bottom: 25px;
+    }
+
+    .lead {
+      color: #b7c0cc;
+      font-size: 20px;
+      max-width: 850px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #10151d;
+      border: 1px solid #252e3a;
+      border-radius: 18px;
+      padding: 28px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .card p {
+      color: #9faab8;
+    }
+
+    .flow {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 2.3;
+    }
+
+    .brain {
+      display: inline-block;
+      padding: 15px 28px;
+      border: 1px solid #697789;
+      border-radius: 999px;
+      font-weight: bold;
+    }
+
+    .dashboard {
+      margin-top: 40px;
+      background: #0e131a;
+      border: 1px solid #293442;
+      border-radius: 22px;
+      overflow: hidden;
+    }
+
+    .dashboard-head {
+      padding: 24px;
+      border-bottom: 1px solid #293442;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+
+    .stat {
+      padding: 24px;
+      border-right: 1px solid #293442;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 34px;
+    }
+
+    .stat span {
+      color: #9faab8;
+      font-size: 14px;
+    }
+
+    .status-list {
+      padding: 24px;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 18px 0;
+      border-bottom: 1px solid #202936;
+    }
+
+    .item:last-child {
+      border-bottom: 0;
+    }
+
+    .label {
+      color: #9faab8;
+    }
+
+    .quote {
+      text-align: center;
+      padding: 120px 0;
+    }
+
+    .quote h2 {
+      max-width: 900px;
+      margin: auto;
+      font-size: clamp(34px, 6vw, 68px);
+    }
+
+    footer {
+      padding: 45px 0;
+      text-align: center;
+      color: #778391;
+      border-top: 1px solid #1d2530;
+    }
+
+    @media (max-width: 650px) {
+      section {
+        padding: 65px 0;
+      }
+
+      .item {
+        flex-direction: column;
+        gap: 4px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <div class="eyebrow">Inteligencia contextual y continuidad</div>
+    <h1>NYVARA</h1>
+    <div class="tagline">Memoria externa para tu pensamiento.</div>
+    <p class="hero-text">
+      Una inteligencia diseñada para conservar contexto,
+      identificar qué requiere atención y transformar información
+      cotidiana en memoria operativa accionable.
+    </p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <h2>El problema no es tener poca información.</h2>
+    <p class="lead">
+      Es perder el contexto entre mensajes, llamadas, documentos,
+      pendientes y decisiones. Qué ocurrió, quién tiene la pelota,
+      qué estamos esperando y qué debe suceder después.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Una NYVARA. Una memoria. Varias interfaces.</h2>
+
+    <div class="flow">
+      WhatsApp &nbsp;·&nbsp; Voz &nbsp;·&nbsp; Documentos &nbsp;·&nbsp; Panel
+      <br>↓<br>
+      <span class="brain">CEREBRO + MEMORIA NYVARA</span>
+      <br>↓<br>
+      Command Center &nbsp;·&nbsp; Acción &nbsp;·&nbsp; Presencia física
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>De conversación a contexto operativo.</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Expediente</h3>
+        <p>El universo de trabajo al que pertenece la información.</p>
+      </div>
+
+      <div class="card">
+        <h3>Folder</h3>
+        <p>El asunto específico que NYVARA debe mantener en contexto.</p>
+      </div>
+
+      <div class="card">
+        <h3>Estado</h3>
+        <p>La situación vigente, no una reconstrucción de conversaciones.</p>
+      </div>
+
+      <div class="card">
+        <h3>Pelota</h3>
+        <p>Quién tiene en este momento la siguiente responsabilidad.</p>
+      </div>
+
+      <div class="card">
+        <h3>Evento esperado</h3>
+        <p>Qué debe ocurrir antes de modificar el estado.</p>
+      </div>
+
+      <div class="card">
+        <h3>Siguiente acción</h3>
+        <p>La única acción concreta que permite avanzar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>NYVARA Command Center</h2>
+    <p class="lead">
+      No muestra todo lo que NYVARA sabe. Muestra lo que importa ahora.
+    </p>
+
+    <div class="dashboard">
+      <div class="dashboard-head">
+        <strong>INFORME EJECUTIVO</strong>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <strong>4</strong>
+          <span>Por accionar</span>
+        </div>
+        <div class="stat">
+          <strong>6</strong>
+          <span>En espera</span>
+        </div>
+        <div class="stat">
+          <strong>3</strong>
+          <span>Acciones NYVARA</span>
+        </div>
+        <div class="stat">
+          <strong>2</strong>
+          <span>Decisiones</span>
+        </div>
+      </div>
+
+      <div class="status-list">
+        <div class="item">
+          <strong>CONSORCIO / Medina</strong>
+          <span class="label">En espera · Verificar acreditación</span>
+        </div>
+
+        <div class="item">
+          <strong>QTA / Propuesta comercial</strong>
+          <span class="label">Por accionar · Terminar propuesta</span>
+        </div>
+
+        <div class="item">
+          <strong>Expedientes activos</strong>
+          <span class="label">Contexto · Estado · Pelota · Siguiente acción</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Lo que ya estamos construyendo.</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>WebMCP V01</h3>
+        <p>Primer despliegue web para organizar contexto y priorizar.</p>
+      </div>
+
+      <div class="card">
+        <h3>WhatsApp MVP</h3>
+        <p>Interpretación de lenguaje natural y memoria operativa estructurada.</p>
+      </div>
+
+      <div class="card">
+        <h3>Command Center V02</h3>
+        <p>Evolución hacia una vista ejecutiva multi-expediente.</p>
+      </div>
+
+      <div class="card">
+        <h3>Presencia física</h3>
+        <p>Evolución progresiva hacia voz, sensores e inteligencia situada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="quote">
+  <div class="container">
+    <h2>
+      La tecnología recuerda lo necesario,
+      en el momento necesario,
+      para que tú puedas pensar y decidir con más contexto.
+    </h2>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    NYVARA · Presentación conceptual V01 · 2026
+  </div>
+</footer>
+
+</body>
+</html>
